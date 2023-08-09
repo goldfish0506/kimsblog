@@ -9,23 +9,12 @@ theme = "paper"
   github = 'Goldfish0506'
   rss = true
 
-  avatar = 'https://www.notion.so/Notion-DoIt-855cd4f17e244c6d9e618fcee42f945f?pvs=4#382908ecb66f4da5a68fd3fcd964c548'
+  avatar = 'goldfish.jinyu@gmail.com'
   name = 'Kim'
   bio = '暴躁的金鱼'
   
   # misc
   disableHLJS = true
-  gravatarCdn = 'https://cdn.v2ex.com/gravatar/'         # e.g. 'https://cdn.v2ex.com/gravatar/'
-  math = true                               # enable KaTex math typesetting globally
+  math = true            
+  monoDarkIcon = true
 
-[menu]
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    weight = 10
-  [[menu.main]]
-    identifier = "contact"
-    name = "Contact"
-    url = "/contact/"
-    weight = 10
