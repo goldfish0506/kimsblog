@@ -3,7 +3,6 @@ languageCode = "zh-CN"
 title = "Kims Blog"
 theme = "paper"
 
-
 [params]
   color = 'linen'
   twitter = 'Goldfish0506'
@@ -18,11 +17,8 @@ theme = "paper"
   disableHLJS = true
   gravatarCdn = 'https://cdn.v2ex.com/gravatar/'         # e.g. 'https://cdn.v2ex.com/gravatar/'
   math = true                               # enable KaTex math typesetting globally
-# ------------------------------
-
 
 [menu]
-
   [[menu.main]]
     identifier = "about"
     name = "About"
