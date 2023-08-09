@@ -1,6 +1,12 @@
-baseURL = "goldfish0506.github.io"
-languageCode = "zh-CN"
-title = "Kims Blog"
+baseURL = "https://goldfish0506.github.io/"
+languageCode = "en"
+DefaultContentLanguage = "zh"
+author = "Kim"
+paginate = 20
+ignoreErrors = ["error-remote-getjson"]
+enableInlineShortcodes = true
+
+title = "Kim's Blog"
 theme = "paper"
 
 [params]
@@ -18,3 +24,15 @@ theme = "paper"
   math = true            
   monoDarkIcon = true
 
+# 配置网站菜单
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 10
