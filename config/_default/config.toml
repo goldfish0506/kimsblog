@@ -6,7 +6,7 @@ paginate = 20
 ignoreErrors = ["error-remote-getjson"]
 enableInlineShortcodes = true
 
-title = "Kim's Blog"
+title = "🔭 人间指南"
 theme = "paper"
 
 [params]
@@ -16,8 +16,8 @@ theme = "paper"
   rss = true
 
   avatar = 'goldfish.jinyu@gmail.com'
-  name = 'Kim'
-  bio = '暴躁的金鱼'
+  name = '主编 Kim'
+  bio = '将自己的精神，注入产品与文字中'
   
   # misc
   disableHLJS = true
