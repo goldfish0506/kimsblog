@@ -1,4 +1,35 @@
 baseURL = "goldfish0506.github.io"
 languageCode = "zh-CN"
 title = "Kims Blog"
-theme = "ananke"
+theme = "paper"
+
+
+[params]
+  color = 'linen'
+  twitter = 'Goldfish0506'
+  github = 'Goldfish0506'
+  rss = true
+
+  avatar = 'https://www.notion.so/Notion-DoIt-855cd4f17e244c6d9e618fcee42f945f?pvs=4#382908ecb66f4da5a68fd3fcd964c548'
+  name = 'Kim'
+  bio = '暴躁的金鱼'
+  
+  # misc
+  disableHLJS = true
+  gravatarCdn = 'https://cdn.v2ex.com/gravatar/'         # e.g. 'https://cdn.v2ex.com/gravatar/'
+  math = true                               # enable KaTex math typesetting globally
+# ------------------------------
+
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 10
