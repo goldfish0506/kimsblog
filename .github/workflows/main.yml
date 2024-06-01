@@ -29,7 +29,7 @@ jobs:
       - name: actions-template-sync
         uses: AndreasAugustin/actions-template-sync@v2
         with:
-          source_repo_path: "https://github.com/HEIGE-PCloud/Notion-Hugo.git"
+          source_repo_path: "HEIGE-PCloud/Notion-Hugo"
           upstream_branch: "main"
   
         
