@@ -31,5 +31,6 @@ jobs:
         with:
           source_repo_path: "HEIGE-PCloud/Notion-Hugo"
           upstream_branch: "main"
+          github_token: ${{ secrets.GITHUB_TOKEN }}
   
         
